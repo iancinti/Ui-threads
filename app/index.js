@@ -1,16 +1,15 @@
 import { StyleSheet, Text, View } from "react-native";
-import Main from '../main/Main.jsx'
 
 export default function Page() {
   return (
-  <Main>
-    <View style={styles.container}>
-      <View style={styles.main}>
-        <Text style={styles.title}>GitThreads</Text>
-        <Text style={styles.subtitle}>A code-sharing platform.</Text>
+    <View>
+      <View style={styles.container}>
+        <View style={styles.main}>
+          <Text style={styles.title}>GitThreads</Text>
+          <Text style={styles.subtitle}>A code-sharing platform.</Text>
+        </View>
       </View>
     </View>
-  </Main>
   );
 }
 
